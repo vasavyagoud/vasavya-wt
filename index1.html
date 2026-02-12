@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2>Interactive Shopping Cart With JavaScript</h2>
+<main class="container">
+    <section class="products">
+        <h3>Product List</h3>
+
+        <div class="product">
+            <span>Product1 - Rs 10</span>
+            <button onclick="addToCart('Product1', 10)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <span>Product2 - Rs 15</span>
+            <button onclick="addToCart('Product2', 15)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <span>Product3 - Rs 20</span>
+            <button onclick="addToCart('Product3', 20)">Add to Cart</button>
+        </div>
+    </section>
+    <section class="cart">
+        <h3>Your Cart</h3>
+        <ul id="cartList"></ul>
+        <h4 id="totalPrice">Total Price: Rs 0</h4>
+    </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
