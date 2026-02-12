@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Regex Text Manipulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<main>
+    <h2>Interactive Shopping Cart with JavaScript</h2>
+    <div class="container">
+
+        <textarea id="userInput" placeholder="User Input"></textarea>
+
+        <div class="controls">
+            <label>Search : </label>
+            <input type="text" id="searchText" placeholder="Search">
+
+            <label>Replace:</label>
+            <input type="text" id="replaceText" placeholder="Replace">
+        </div>
+
+        <div class="buttons">
+            <button onclick="searchText()">Search</button>
+            <button onclick="replaceText()">Replace</button>
+            <button onclick="formatText()">Format</button>
+        </div>
+
+    </div>
+
+    <div class="result">
+        <textarea id="resultArea" placeholder="Result" readonly></textarea>
+    </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
