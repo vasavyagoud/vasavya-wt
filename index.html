@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dynamically Generated Content</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Dynamically Generated Content</h2>
+    <main>
+        <button id="generateNumberBtn">Generate Random Number</button>
+
+        <div id="randomNumberDisplay">
+            Display Random Number
+        </div>
+
+        <div class="button-group">
+            <button id="addItemBtn">Add Item</button>
+            <button id="removeItemBtn">Remove Item</button>
+        </div>
+
+        <ul id="itemList">
+            <li>Item List</li>
+        </ul>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
